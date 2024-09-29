@@ -79,13 +79,13 @@ export default function RecipeCard() {
       <form onSubmit={handleSearch} className="bg-white shadow-sm py-4 px-6 flex items-center justify-between">
         <div className="flex items-center">
           <Image
-            src="https://w7.pngwing.com/pngs/426/730/png-transparent-logo-yellow-font-recipe-logo-art-yellow.png"
+            src="/logo.png"
             alt="Edamam Logo"
             width={40}
             height={40}
             className="mr-2"
           />
-          <span className="text-2xl font-bold text-green-600 hidden sm:block">EDAMAM</span>
+          <span className="text-2xl font-bold text-green-600 hidden sm:block">FOOD COURT</span>
         </div>
         <div className="flex items-center space-x-2">
           <Input
